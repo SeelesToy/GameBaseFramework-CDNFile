@@ -1,0 +1,584 @@
+{
+    "Summary": {
+        "YooVersion": "3.0.7",
+        "UnityVersion": "2020.3.49f1c1",
+        "BuildDate": "2026/11/24 19:00:24",
+        "BuildSeconds": 4,
+        "BuildTarget": 19,
+        "BuildPipeline": "ScriptableBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "TurnBasePackage",
+        "BuildPackageVersion": "2026-11-24-1140",
+        "BuildPackageNote": "2026/11/24 19:00:18",
+        "UniqueBundleName": true,
+        "EnableAddressable": false,
+        "SupportExtensionless": true,
+        "LocationToLower": false,
+        "IncludeAssetGuid": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": false,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "ManifestProcessServicesClassName": "YooAsset.Editor.ManifestEncryptorNone",
+        "ManifestRestoreServicesClassName": "YooAsset.Editor.ManifestDecryptorNone",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": false,
+        "ReplaceAssetPathWithAddress": false,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "turnbasepackage_unityshaders.bundle",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 25,
+        "MainAssetTotalCount": 24,
+        "AllBundleTotalCount": 14,
+        "AllBundleTotalSize": 13613829,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Code/AOT/GameFramework.dll.bytes",
+            "AssetGuid": "6df8f1abccc64b242b09258e529ab1e9",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_code_aot_gameframework_dll.bundle",
+            "MainBundleSize": 183891,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Code/AOT/mscorlib.dll.bytes",
+            "AssetGuid": "d8b558c39e5503d4f83622476a83f8e5",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_code_aot_mscorlib_dll.bundle",
+            "MainBundleSize": 880715,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Code/AOTAssemblyList.txt",
+            "AssetGuid": "f9eccc9c209ad024289eeb6bb8d77aa5",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_code_aotassemblylist.bundle",
+            "MainBundleSize": 1275,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Code/HotUpdate.dll.bytes",
+            "AssetGuid": "7fe61ddd9652d094cacb3c2adbfc60c9",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_code_hotupdate_dll.bundle",
+            "MainBundleSize": 4491,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Scenes/BattleStage.unity",
+            "AssetGuid": "ac9b6cb8c1be3d5449a79c8ddd4bdbe2",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_scenes.bundle",
+            "MainBundleSize": 204922,
+            "DependAssets": [],
+            "DependBundles": [
+                "turnbasepackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/Scenes/Launch.unity",
+            "AssetGuid": "1f8524f20b272b04da1e60ffaf2241dd",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_scenes.bundle",
+            "MainBundleSize": 204922,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/UnityGameFramework/GameFramework.prefab",
+                    "AssetGUID": "adb3eb1c35fcff14f89fba7b05c9d71c"
+                }
+            ],
+            "DependBundles": [
+                "turnbasepackage_share_assets_unitygameframework.bundle",
+                "turnbasepackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_attack.png",
+            "AssetGuid": "637dedaaefdf8cb7a2ab8268389ee3cb",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "MainBundleSize": 858817,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_deck.png",
+            "AssetGuid": "3680978e8f940f44e12e80bb76e08dc0",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "MainBundleSize": 858817,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_energy.png",
+            "AssetGuid": "766dddc8fae755a5054381bd6728f81e",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "MainBundleSize": 858817,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_health.png",
+            "AssetGuid": "50a94be8605ab4dafe37cbc70cd167f6",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "MainBundleSize": 858817,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_shield.png",
+            "AssetGuid": "da464ff841b787e02326d84647ecb02d",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "MainBundleSize": 858817,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Collection/Frames/frame_card_rare.png",
+            "AssetGuid": "cf7426d99ec6aefc3f813f65e5df156b",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_collection_frames.bundle",
+            "MainBundleSize": 1807475,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Collection/Frames/frame_item.png",
+            "AssetGuid": "b04ea7482bea0a6c9af49bfcc9460be2",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_collection_frames.bundle",
+            "MainBundleSize": 1807475,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Bars/bar_fill_cyan.png",
+            "AssetGuid": "050bd472515d9cfc15698740fa59747a",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_bars.bundle",
+            "MainBundleSize": 638155,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Bars/bar_track.png",
+            "AssetGuid": "50b3b7f7ffdc852d1c123db37193f4fd",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_bars.bundle",
+            "MainBundleSize": 638155,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_cyan.png",
+            "AssetGuid": "7ba2fb4f229cadf6689ba7d9bd0aa819",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_buttons.bundle",
+            "MainBundleSize": 3666272,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_round.png",
+            "AssetGuid": "d49a44fa1564c641caf5e85b547ad3f0",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_buttons.bundle",
+            "MainBundleSize": 3666272,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_yellow.png",
+            "AssetGuid": "5826e8c8daf09ff86474ea372d402e7a",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_buttons.bundle",
+            "MainBundleSize": 3666272,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/tab_selected.png",
+            "AssetGuid": "cff37e4e1c811fb96cb1298c452db6c9",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_buttons.bundle",
+            "MainBundleSize": 3666272,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Icons/icon_coin.png",
+            "AssetGuid": "545e769c8fc63c472908b21ba8ab740b",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_icons.bundle",
+            "MainBundleSize": 365234,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Icons/icon_gem.png",
+            "AssetGuid": "2d78e7a2984bd37eb6e10301c2def369",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_icons.bundle",
+            "MainBundleSize": 365234,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Panels/panel_glass.png",
+            "AssetGuid": "70e2aa44750f4904b55ba0713f7b3868",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_panels.bundle",
+            "MainBundleSize": 1908732,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/Common/Panels/panel_status.png",
+            "AssetGuid": "6f38ea421bd77c4a01178f7d5ffb9b59",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_common_panels.bundle",
+            "MainBundleSize": 1908732,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameMain/Res/UI/MainMenu/Backgrounds/bg_blue_hall.png",
+            "AssetGuid": "3d151bbc1f948d6a67f2f4e3830724a7",
+            "AssetTags": [],
+            "MainBundleName": "turnbasepackage_assets_gamemain_res_ui_mainmenu_backgrounds.bundle",
+            "MainBundleSize": 3065992,
+            "DependAssets": [],
+            "DependBundles": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_code_aot_gameframework_dll.bundle",
+            "FileName": "51d8fe0056a1b683904b6f74dda776ff.bundle",
+            "FileHash": "51d8fe0056a1b683904b6f74dda776ff",
+            "FileCrc": 3317539283,
+            "FileSize": 183891,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/Code/AOT/GameFramework.dll.bytes",
+                    "AssetGUID": "6df8f1abccc64b242b09258e529ab1e9"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_code_aot_mscorlib_dll.bundle",
+            "FileName": "b61ad57e13eb8e3726b35a3d23e74ff3.bundle",
+            "FileHash": "b61ad57e13eb8e3726b35a3d23e74ff3",
+            "FileCrc": 3750329295,
+            "FileSize": 880715,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/Code/AOT/mscorlib.dll.bytes",
+                    "AssetGUID": "d8b558c39e5503d4f83622476a83f8e5"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_code_aotassemblylist.bundle",
+            "FileName": "507bc784d5452323539c63cfa283c269.bundle",
+            "FileHash": "507bc784d5452323539c63cfa283c269",
+            "FileCrc": 513824036,
+            "FileSize": 1275,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/Code/AOTAssemblyList.txt",
+                    "AssetGUID": "f9eccc9c209ad024289eeb6bb8d77aa5"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_code_hotupdate_dll.bundle",
+            "FileName": "8ab7fbf54356ec8d92896eb5a1781bae.bundle",
+            "FileHash": "8ab7fbf54356ec8d92896eb5a1781bae",
+            "FileCrc": 3891090232,
+            "FileSize": 4491,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/Code/HotUpdate.dll.bytes",
+                    "AssetGUID": "7fe61ddd9652d094cacb3c2adbfc60c9"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_scenes.bundle",
+            "FileName": "5b22e0ac928471b2ef4d10b0202801a8.bundle",
+            "FileHash": "5b22e0ac928471b2ef4d10b0202801a8",
+            "FileCrc": 1624495701,
+            "FileSize": 204922,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "turnbasepackage_unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/Scenes/BattleStage.unity",
+                    "AssetGUID": "ac9b6cb8c1be3d5449a79c8ddd4bdbe2"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/Scenes/Launch.unity",
+                    "AssetGUID": "1f8524f20b272b04da1e60ffaf2241dd"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_battle_icons.bundle",
+            "FileName": "0876828370aa18430eafd1648f496aa5.bundle",
+            "FileHash": "0876828370aa18430eafd1648f496aa5",
+            "FileCrc": 2103879221,
+            "FileSize": 858817,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_attack.png",
+                    "AssetGUID": "637dedaaefdf8cb7a2ab8268389ee3cb"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_deck.png",
+                    "AssetGUID": "3680978e8f940f44e12e80bb76e08dc0"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_energy.png",
+                    "AssetGUID": "766dddc8fae755a5054381bd6728f81e"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_health.png",
+                    "AssetGUID": "50a94be8605ab4dafe37cbc70cd167f6"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Battle/Icons/icon_shield.png",
+                    "AssetGUID": "da464ff841b787e02326d84647ecb02d"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_collection_frames.bundle",
+            "FileName": "cdcd83b60bdf920f95de77054e1cf271.bundle",
+            "FileHash": "cdcd83b60bdf920f95de77054e1cf271",
+            "FileCrc": 3655082598,
+            "FileSize": 1807475,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Collection/Frames/frame_card_rare.png",
+                    "AssetGUID": "cf7426d99ec6aefc3f813f65e5df156b"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Collection/Frames/frame_item.png",
+                    "AssetGUID": "b04ea7482bea0a6c9af49bfcc9460be2"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_common_bars.bundle",
+            "FileName": "9e392412e786434b38be8d91964851a3.bundle",
+            "FileHash": "9e392412e786434b38be8d91964851a3",
+            "FileCrc": 4055012825,
+            "FileSize": 638155,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Bars/bar_fill_cyan.png",
+                    "AssetGUID": "050bd472515d9cfc15698740fa59747a"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Bars/bar_track.png",
+                    "AssetGUID": "50b3b7f7ffdc852d1c123db37193f4fd"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_common_buttons.bundle",
+            "FileName": "a193e08d35b548cdaf1897268e420530.bundle",
+            "FileHash": "a193e08d35b548cdaf1897268e420530",
+            "FileCrc": 664912511,
+            "FileSize": 3666272,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_cyan.png",
+                    "AssetGUID": "7ba2fb4f229cadf6689ba7d9bd0aa819"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_round.png",
+                    "AssetGUID": "d49a44fa1564c641caf5e85b547ad3f0"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/btn_yellow.png",
+                    "AssetGUID": "5826e8c8daf09ff86474ea372d402e7a"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Buttons/tab_selected.png",
+                    "AssetGUID": "cff37e4e1c811fb96cb1298c452db6c9"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_common_icons.bundle",
+            "FileName": "83cf62053676192a54af7a50d119faed.bundle",
+            "FileHash": "83cf62053676192a54af7a50d119faed",
+            "FileCrc": 1005214519,
+            "FileSize": 365234,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Icons/icon_coin.png",
+                    "AssetGUID": "545e769c8fc63c472908b21ba8ab740b"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Icons/icon_gem.png",
+                    "AssetGUID": "2d78e7a2984bd37eb6e10301c2def369"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_common_panels.bundle",
+            "FileName": "9680f188986e99253e8fa42a85bec259.bundle",
+            "FileHash": "9680f188986e99253e8fa42a85bec259",
+            "FileCrc": 3240702583,
+            "FileSize": 1908732,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Panels/panel_glass.png",
+                    "AssetGUID": "70e2aa44750f4904b55ba0713f7b3868"
+                },
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/Common/Panels/panel_status.png",
+                    "AssetGUID": "6f38ea421bd77c4a01178f7d5ffb9b59"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_assets_gamemain_res_ui_mainmenu_backgrounds.bundle",
+            "FileName": "dfee0452da8b01a9372ceb0f88792ba4.bundle",
+            "FileHash": "dfee0452da8b01a9372ceb0f88792ba4",
+            "FileCrc": 2856907001,
+            "FileSize": 3065992,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameMain/Res/UI/MainMenu/Backgrounds/bg_blue_hall.png",
+                    "AssetGUID": "3d151bbc1f948d6a67f2f4e3830724a7"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_share_assets_unitygameframework.bundle",
+            "FileName": "20483eefbf81fe73c0239ee0d8c92b5d.bundle",
+            "FileHash": "20483eefbf81fe73c0239ee0d8c92b5d",
+            "FileCrc": 3493315411,
+            "FileSize": 8926,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/UnityGameFramework/GameFramework.prefab",
+                    "AssetGUID": "adb3eb1c35fcff14f89fba7b05c9d71c"
+                }
+            ]
+        },
+        {
+            "BundleName": "turnbasepackage_unityshaders.bundle",
+            "FileName": "ee9ba195ab3aaa4b559cb60a8b45a8b5.bundle",
+            "FileHash": "ee9ba195ab3aaa4b559cb60a8b45a8b5",
+            "FileCrc": 1314502745,
+            "FileSize": 18932,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "turnbasepackage_assets_gamemain_res_scenes.bundle"
+            ],
+            "BundleContents": []
+        }
+    ],
+    "IndependentAssets": []
+}
